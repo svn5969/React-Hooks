@@ -38,6 +38,18 @@
   display: inline-block;
   font-size: 16px;
 }
+.btnInner{
+  background-color: #e94e4e; /* Green */
+  border: none;
+  border-radius:5px;
+  color: white;
+  padding: 5px 12px;
+  margin-left: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 .h1Style{
   background-color: #d7ecd8; /* Green */
   border: none;
