@@ -8,7 +8,7 @@ const UseEffect1 = () => {
       }else{
           document.title = `Chats`
       }
-    })
+    }, [count])
     console.log("hello outside");
     return (
         <div>
