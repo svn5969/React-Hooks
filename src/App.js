@@ -5,6 +5,7 @@ import UseStateArray from './components/UseStateArray';
 import BasicTodoList from './components/BasicTodoList';
 import ShortCircuitEvaluation from './components/ShortCircuitEvaluation';
 import BasicForms from './components/forms/BasicForms';
+import UseEffect1 from './components/useEffect Hook/UseEffect1';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
      {/* <UseStateObject></UseStateObject> */}
      {/* <BasicTodoList></BasicTodoList> */}
      {/* <ShortCircuitEvaluation></ShortCircuitEvaluation> */}
-     <BasicForms></BasicForms>
+     {/* <BasicForms></BasicForms> */}
+     <UseEffect1></UseEffect1>
     </div>
   );
 }
