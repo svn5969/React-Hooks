@@ -8,8 +8,19 @@ const BasicForms = () => {
 
     const submitForm = (e) => {
         e.preventDefault()
-        const newEntry = {email:email,password:password}
-        setAllEntry([...allEntry,newEntry])
+        // const newEntry = { email:email,password:password}
+        
+        // Modified line
+        if (email && password) {
+            const newEntry = { id: new Date().getTime().toString(), email,password}
+
+            setAllEntry([...allEntry,newEntry])
+    
+            setEmail("")
+            setPassword("")
+        }else{
+            alert("please fill the data")
+        }
     }
     return (
         <>
@@ -43,10 +54,11 @@ const BasicForms = () => {
             <div>
                 {
                     allEntry.map((curElem) => {
+                        const {id,email,password} = curElem;
                          return (
-                             <div className="h1Style">
-                             <p>Email :  {curElem.email}</p>
-                             <p>Password : {curElem.password}</p>
+                             <div className="h1Style" key={id}>
+                             <p>Email :  {email}</p>
+                             <p>Password : {password}</p>
                              </div>
                          )
                     })
