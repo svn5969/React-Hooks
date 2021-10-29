@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 .btn{
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50; 
   border: none;
   border-radius:5px;
   color: white;
@@ -39,7 +39,7 @@
   font-size: 16px;
 }
 .btnInner{
-  background-color: #e94e4e; /* Green */
+  background-color: #e94e4e; 
   border: none;
   border-radius:5px;
   color: white;
@@ -51,7 +51,7 @@
   font-size: 16px;
 }
 .h1Style{
-  background-color: #d7ecd8; /* Green */
+  background-color: #d7ecd8; 
   border: none;
   border-radius: 5px;
   color: rgb(56, 52, 52);
@@ -69,3 +69,7 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
