@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import UseStateObject from './components/UseStateObject';
 import UseStateArray from './components/UseStateArray';
 import BasicTodoList from './components/BasicTodoList';
@@ -8,6 +9,7 @@ import BasicForms from './components/forms/BasicForms';
 import UseEffect1 from './components/useEffect Hook/UseEffect1';
 import UseEffect2 from './components/useEffect Hook/UseEffect2';
 import UseEffectApi from './components/useEffect Hook/UseEffectApi';
+import Uncontrolled from './components/forms/Uncontrolled';
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
      {/* <BasicForms></BasicForms> */}
      {/* <UseEffect1></UseEffect1> */}
      {/* <UseEffect2></UseEffect2> */}
-     <UseEffectApi></UseEffectApi>
+     {/* <UseEffectApi></UseEffectApi> */}
+     <Uncontrolled></Uncontrolled>
     </div>
   );
 }
