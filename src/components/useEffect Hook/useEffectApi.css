@@ -9,7 +9,7 @@ body{
   }
   .textLeft{
     text-align: left;
-    color: red;
+    color: rgb(49, 47, 47);
   }
   .card{
     width: 450px;
