@@ -10,6 +10,7 @@ import UseEffect1 from './components/useEffect Hook/UseEffect1';
 import UseEffect2 from './components/useEffect Hook/UseEffect2';
 import UseEffectApi from './components/useEffect Hook/UseEffectApi';
 import Uncontrolled from './components/forms/Uncontrolled';
+import UseReducer from './components/UseReducer/UseReducer';
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
      {/* <BasicForms></BasicForms> */}
      {/* <UseEffect1></UseEffect1> */}
      {/* <UseEffect2></UseEffect2> */}
-     <UseEffectApi></UseEffectApi>
+     {/* <UseEffectApi></UseEffectApi> */}
      {/* <Uncontrolled></Uncontrolled> */}
+     <UseReducer></UseReducer>
     </div>
   );
 }
