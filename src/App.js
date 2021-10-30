@@ -12,6 +12,7 @@ import UseEffectApi from './components/useEffect Hook/UseEffectApi';
 import Uncontrolled from './components/forms/Uncontrolled';
 import UseReducer from './components/UseReducer/UseReducer';
 import ComA from './components/UseContextAndContextAPI/ComA';
+import CustomHookTest from './components/useEffect Hook/CustomHookTest';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
      {/* <UseEffectApi></UseEffectApi> */}
      {/* <Uncontrolled></Uncontrolled> */}
      {/* <UseReducer></UseReducer> */}
-     <ComA></ComA>
+     {/* <ComA></ComA> */}
+     <CustomHookTest></CustomHookTest>
     </div>
   );
 }
