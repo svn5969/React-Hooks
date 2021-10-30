@@ -1,4 +1,6 @@
 import React from 'react';
+import { FcApproval } from "react-icons/fc";
+
 
 const Users = ({users}) => {
     
@@ -19,7 +21,7 @@ const Users = ({users}) => {
                   <img src={avatar_url} alt="" className="rounded" width="155" />
                   </div>
                   <div className="ml-3 w-100">
-                      <h4 className="mb-0 mt-0 textLeft">{login}</h4> <span className="textLeft">{type}</span>
+                      <h4 className="mb-0 mt-0 textLeft">{login} <FcApproval/></h4> <span className="textLeft">{type}</span>
                       <div className="justify-content-between p-2 mt-2 bg-primary d-flex text-white stats">
                           <div className="d-flex flex-column"> <span className="articles">Articles</span> <span className="number1">38</span> </div>
                           <div className="d-flex flex-column"> <span className="followers">Followers</span>  <span className="number2">980</span></div>

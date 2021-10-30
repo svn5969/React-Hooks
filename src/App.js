@@ -21,8 +21,8 @@ function App() {
      {/* <BasicForms></BasicForms> */}
      {/* <UseEffect1></UseEffect1> */}
      {/* <UseEffect2></UseEffect2> */}
-     {/* <UseEffectApi></UseEffectApi> */}
-     <Uncontrolled></Uncontrolled>
+     <UseEffectApi></UseEffectApi>
+     {/* <Uncontrolled></Uncontrolled> */}
     </div>
   );
 }
