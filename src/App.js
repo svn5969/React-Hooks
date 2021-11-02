@@ -13,6 +13,8 @@ import Uncontrolled from './components/forms/Uncontrolled';
 import UseReducer from './components/UseReducer/UseReducer';
 import ComA from './components/UseContextAndContextAPI/ComA';
 import CustomHookTest from './components/useEffect Hook/CustomHookTest';
+import React from "react";
+import Home from './components/Myapp/Home';
 
 function App() {
   return (
@@ -28,7 +30,8 @@ function App() {
      {/* <Uncontrolled></Uncontrolled> */}
      {/* <UseReducer></UseReducer> */}
      {/* <ComA></ComA> */}
-     <CustomHookTest></CustomHookTest>
+     {/* <CustomHookTest></CustomHookTest> */}
+     <Home></Home>
     </div>
   );
 }
