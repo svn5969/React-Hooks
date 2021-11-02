@@ -7,6 +7,7 @@ import {
 } from "react-router-dom"
 import About from './About';
 import Index from './Index';
+import Login from './Login';
 import Navbar from './Navbar';
 const Home = () => {
     return (
@@ -18,6 +19,9 @@ const Home = () => {
          </Route>
          <Route path="/index">
             <Index></Index>
+         </Route>
+         <Route path="/login">
+            <Login></Login>
          </Route>
          </Switch>
        

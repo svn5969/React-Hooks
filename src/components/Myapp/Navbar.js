@@ -23,7 +23,9 @@ const Navbar = () => {
             <li class="nav-item active">
               <NavLink class="nav-link" to="/index">Index </NavLink>
             </li>
-            
+            <li class="nav-item active">
+              <NavLink class="nav-link" to="/login">Login </NavLink>
+            </li>
         
           </ul>
           
